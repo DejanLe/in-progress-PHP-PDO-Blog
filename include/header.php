@@ -1,7 +1,7 @@
 <?php
 $sitetitle = "phpblog";
 
-$connections = "connect.php";
+$connections = "connect/connect.php";
 
 if (file_exists($connections)) 
 {

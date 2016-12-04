@@ -1,8 +1,16 @@
 <?php 
-include('header.php');
-include('jumbotron.php');
+include('include/header.php');
+ 
 ?>
-
+  <!--jumbotron-->
+  <div class="overlay">
+	  <div class="jumbotron">
+	  	<div class="container text-center">
+	  		<h1>Welcome to my blog</h1> 
+	  		<a href="include/insert.php"><button type="submit" class="btn btn-default">Insert new Post</button></a>  
+	  	</div>
+	  </div>
+  </div>
      <div class="container">
 			<div class="row"> 
 			<div class="col-lg-8 col-md-offset-1">
@@ -11,13 +19,14 @@ include('jumbotron.php');
 					  { 
 					   
 					 	 echo '<a href="#">'. '<h1>'. $pos->title .'</h1>' .'</a>' . 
-					 	 
+					 	  $pos->date .
+					 	  '<p class="post-meta">Posted by: ' . $pos->author .'</p>'.
+					 	  '<a href="index.php?option=category">Category: ' . $pos->category_id  .'</a><br>'.
+					 	   $pos->content ;
 
-					 	   $pos->content .
+					 	   
 
-					 	   '<p class="post-meta">Posted by: ' . $pos->author .'</p>'.
-
-					 	   $pos->date;
+					 	  
 					 }
 					?>
 				</div>
@@ -28,6 +37,7 @@ include('jumbotron.php');
 				<hr>
 					<?php
 					//kreiranje dinamicke funkcionalnosti stranice
+					if (isset($_GET['opcija'])) { 
 					$option = $_GET['option'];
 					$file = $option .".php";
 						if (file_exists($file)) 
@@ -39,7 +49,7 @@ include('jumbotron.php');
 							else{
 							   die("page not exists!")  ;
 							}
- 						 
+ 						 }
 					?>
 
 				 </div>
@@ -47,5 +57,5 @@ include('jumbotron.php');
 	</div>
 
 <?php
-include('footer.php');
+include('include/footer.php');
 ?>

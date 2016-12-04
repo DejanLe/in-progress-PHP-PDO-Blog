@@ -4,7 +4,7 @@
 			<div class="col-lg-8 col-md-offset-1">
 				 <address>
 					Written by <a href="mailto:webmaster@example.com">php blog</a>.<br>
-					Visit us at:<br>
+					Visit us at: example.com<br>
 					Example.com<br>
 					Blog 212, Blog street<br>
 					Blog City
