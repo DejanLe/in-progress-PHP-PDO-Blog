@@ -1,0 +1,74 @@
+ @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,900');
+ body{ 
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300;
+    font-size: 16px;
+}
+        a{
+ 	color: #32BFDA;
+ 	transition: all 0.5s;  
+           &:hover{
+     	      color: #000;
+     	      text-decoration: none;
+            }
+        }
+ 
+ .overlay{ 
+	background: url(../img/bg.jpeg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+ }
+ .navbar-inverse .navbar-brand {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.jumbotron{
+	background:#32BFDA99;
+	 height: 100vh;
+        h1{
+    	font-size: 78px;
+    	font-weight: 900;
+    	text-align: center;
+        padding-top: 150px;
+        color: #fff;
+    }
+}
+@media(max-width: 480px){
+	.jumbotron h1{
+		font-size: 48px;
+	}
+}
+.btn-default{
+    border-radius: 45px;
+    padding: 10px 45px;
+    background-color:#fff;
+    color: #32BFDA99;  
+    transition: all 0.5s; 
+    font-size: 18px;
+        &:hover{
+         background: transparent;
+         color: #ccc;
+    }
+}
+ .post-meta {
+    color: #777;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0;
+}
+p {
+    line-height: 1.5; 
+}
+.forma{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#1F535F;
+    color: #fff;
+}
