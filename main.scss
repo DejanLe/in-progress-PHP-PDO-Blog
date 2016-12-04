@@ -19,7 +19,7 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
- }
+ } 
  .navbar-inverse .navbar-brand {
     color: #fff;
     text-transform: uppercase;
@@ -67,6 +67,7 @@ p {
     padding-bottom: 30px;
     h2{
         font-weight: 900;
+         
     }
 }
 /*services*/
@@ -75,7 +76,35 @@ p {
     padding-bottom: 60px;
     h2{
         font-weight: 900;
+        margin-bottom: 30px;
+        
     }
+}
+/*portflio*/
+.portfolio{
+     padding-top:60px;
+    padding-bottom: 60px;
+    h2{
+        font-weight: 900;
+        margin-bottom: 30px; 
+    }
+}
+ .panel {
+    
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 2px 3px 5px rgba(0,0,0,.05);
+    transition: all 0.5s;
+        &:hover{ 
+            background-color:#32BFDA99;
+            border: 3px solid transparent;
+            border-radius: 4px;
+            -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+            box-shadow: 2px 3px 5px rgba(0,0,0,.05);
+            color: #fff;  
+    } 
 }
 .forma{
     padding-top: 80px;

@@ -67,7 +67,31 @@ p {
   padding-top: 60px;
   padding-bottom: 60px; }
   .services h2 {
-    font-weight: 900; }
+    font-weight: 900;
+    margin-bottom: 30px; }
+
+/*portflio*/
+.portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .portfolio h2 {
+    font-weight: 900;
+    margin-bottom: 30px; }
+
+.panel {
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.5s; }
+  .panel:hover {
+    background-color: #32BFDA99;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.05);
+    color: #fff; }
 
 .forma {
   padding-top: 80px;

@@ -39,6 +39,7 @@ else{
   </head>
     <body>
   <!--navbar-->
+
    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -61,4 +62,5 @@ else{
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+   
  <!--end navbar-->
