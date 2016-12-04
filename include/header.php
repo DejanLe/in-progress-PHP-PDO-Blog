@@ -51,7 +51,8 @@ else{
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.php">Blog</a></li> 
+          <li class="active"><a href="index.php">Home</a></li> 
+            <li class="active"><a href="blogs.php">Blog</a></li> 
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->

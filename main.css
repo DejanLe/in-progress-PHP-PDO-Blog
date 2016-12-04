@@ -25,12 +25,11 @@ a {
 
 .jumbotron {
   background: #32BFDA99;
-  height: 100vh; }
+  height: 350px; }
   .jumbotron h1 {
     font-size: 78px;
     font-weight: 900;
     text-align: center;
-    padding-top: 150px;
     color: #fff; }
 
 @media (max-width: 480px) {
@@ -55,6 +54,20 @@ a {
 
 p {
   line-height: 1.5; }
+
+/*about*/
+.about {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .about h2 {
+    font-weight: 900; }
+
+/*services*/
+.services {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .services h2 {
+    font-weight: 900; }
 
 .forma {
   padding-top: 80px;
