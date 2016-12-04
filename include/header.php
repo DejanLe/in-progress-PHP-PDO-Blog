@@ -1,3 +1,4 @@
+<?php include_once('include/modal-contact.php');?>
 <?php
 $sitetitle = "phpblog";
 
@@ -53,7 +54,9 @@ else{
           <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="index.php">Home</a></li> 
             <li class="active"><a href="blogs.php">Blog</a></li> 
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact"  type="button"  data-toggle="modal" data-target="#myModal">Contact</a></li>
+
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>
