@@ -1,12 +1,21 @@
 <?php
-$sitetitle = " phpblog";
-$conncections = "connect.php";
-if (file_exists($conncections)) {
-  include_once($conncections);
-}else{
+$sitetitle = "phpblog";
+
+$connections = "connect.php";
+
+if (file_exists($connections)) 
+{
+  include_once($connections);
+
+}
+
+else{
    die("Hi, go back leather!")  ;
 }
+
 ?> 
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>

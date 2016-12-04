@@ -9,5 +9,5 @@ catch
 		echo $e->getMessage(); 
 		die(); 
 	}
-$query = $connection->query('SELECT * FROM post');
+$query = $connection->query('SELECT * FROM `post`');
 $post = $query->fetchAll(PDO::FETCH_OBJ);

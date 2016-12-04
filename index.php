@@ -22,14 +22,27 @@ include('jumbotron.php');
 					?>
 				</div>
 
-				<div class="col-md-3">
-				<strong><i>Tags</i></strong>  <br>
+				<!--category-->
+				<div class="col-md-3"> 
+				<a href="index.php?option=category">Category</a>
+				<hr>
+					<?php
+					//kreiranje dinamicke funkcionalnosti stranice
+					$option = $_GET['option'];
+					$file = $option .".php";
+						if (file_exists($file)) 
+							{
+							  include_once($file);
 
-				<?php 	foreach ($post as $pos  ) 
- 
-						echo '<a class="btn btn-success" href="#">'. $pos->tags .'</a>' ;  
-				 ?>
-				</div>
+							}
+
+							else{
+							   die("page not exists!")  ;
+							}
+ 						 
+					?>
+
+				 </div>
 			</div>
 	</div>
 
